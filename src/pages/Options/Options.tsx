@@ -1,6 +1,6 @@
 import React from 'react';
 import './Options.css';
-
+const crypto = require('crypto-browserify')
 interface Props {
   title: string;
 }
