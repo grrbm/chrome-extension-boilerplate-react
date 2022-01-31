@@ -7,6 +7,14 @@
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"
   },
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus", "tabs"],
+  "optional_permissions": [
+  ],
+  "host_permissions": [
+    "http://www.blogger.com/",
+    "*://*/*",
+    ""
+  ],
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
